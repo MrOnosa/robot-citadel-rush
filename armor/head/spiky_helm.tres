@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Equipment" load_steps=2 format=3 uid="uid://llcgh15bplsd"]
+
+[ext_resource type="Script" uid="uid://d2aeep8ffn3wx" path="res://resources/equipment.gd" id="1_iafku"]
+
+[resource]
+script = ExtResource("1_iafku")
+name = &"Spiky Helm"
+defense = 4
+attack = 3
+equipment_slot = 0
+metadata/_custom_type_script = "uid://d2aeep8ffn3wx"

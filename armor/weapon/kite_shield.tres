@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Equipment" load_steps=2 format=3 uid="uid://b3qsb3jmyvxw2"]
+
+[ext_resource type="Script" uid="uid://d2aeep8ffn3wx" path="res://resources/equipment.gd" id="1_7yyfy"]
+
+[resource]
+script = ExtResource("1_7yyfy")
+name = &"Kite Shield"
+defense = 8
+attack = 0
+equipment_slot = 2
+metadata/_custom_type_script = "uid://d2aeep8ffn3wx"

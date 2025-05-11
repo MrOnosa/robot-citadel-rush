@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Equipment" load_steps=2 format=3 uid="uid://ci5wew4imv8mu"]
+
+[ext_resource type="Script" uid="uid://d2aeep8ffn3wx" path="res://resources/equipment.gd" id="1_hf551"]
+
+[resource]
+script = ExtResource("1_hf551")
+name = &"Spiky Rod"
+defense = 0
+attack = 7
+equipment_slot = 2
+metadata/_custom_type_script = "uid://d2aeep8ffn3wx"

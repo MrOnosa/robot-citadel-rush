@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Equipment" load_steps=2 format=3 uid="uid://45r3smynw8e5"]
+
+[ext_resource type="Script" uid="uid://d2aeep8ffn3wx" path="res://resources/equipment.gd" id="1_apv7p"]
+
+[resource]
+script = ExtResource("1_apv7p")
+name = &"Iron Helm"
+defense = 10
+attack = 0
+equipment_slot = 0
+metadata/_custom_type_script = "uid://d2aeep8ffn3wx"

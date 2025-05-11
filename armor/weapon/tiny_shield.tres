@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Equipment" load_steps=2 format=3 uid="uid://3eg0oeb0bguo"]
+
+[ext_resource type="Script" uid="uid://d2aeep8ffn3wx" path="res://resources/equipment.gd" id="1_x1s5t"]
+
+[resource]
+script = ExtResource("1_x1s5t")
+name = &"Tiny Shield"
+defense = 3
+attack = 0
+equipment_slot = 2
+metadata/_custom_type_script = "uid://d2aeep8ffn3wx"

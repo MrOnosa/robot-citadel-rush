@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Equipment" load_steps=2 format=3 uid="uid://bhwchjco7ihql"]
+
+[ext_resource type="Script" uid="uid://d2aeep8ffn3wx" path="res://resources/equipment.gd" id="1_a3tpo"]
+
+[resource]
+script = ExtResource("1_a3tpo")
+name = &"Unarmed"
+defense = 0
+attack = 0
+equipment_slot = 2
+metadata/_custom_type_script = "uid://d2aeep8ffn3wx"

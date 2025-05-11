@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cinjit3ldspoh"]
+
+[ext_resource type="Script" uid="uid://du5cjhpuiq8a0" path="res://message_prompt.gd" id="1_oh2bo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dnjjw"]
+size = Vector2(8, 8)
+
+[node name="MessagePrompt" type="StaticBody2D" groups=["heal"]]
+script = ExtResource("1_oh2bo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_dnjjw")
+
+[node name="Marker2D" type="Marker2D" parent="."]

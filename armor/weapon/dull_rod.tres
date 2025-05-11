@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Equipment" load_steps=2 format=3 uid="uid://dxkexshk2duqv"]
+
+[ext_resource type="Script" uid="uid://d2aeep8ffn3wx" path="res://resources/equipment.gd" id="1_0sicb"]
+
+[resource]
+script = ExtResource("1_0sicb")
+name = &"Dull Rod"
+defense = 0
+attack = 5
+equipment_slot = 2
+metadata/_custom_type_script = "uid://d2aeep8ffn3wx"

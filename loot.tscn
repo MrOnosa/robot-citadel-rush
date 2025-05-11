@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://cdoxhxsd2mm4d"]
+
+[ext_resource type="Script" uid="uid://xght7mgcgblh" path="res://loot.gd" id="1_s1bj6"]
+[ext_resource type="Texture2D" uid="uid://dx4x1amqngu45" path="res://Assets/kenney_micro-roguelike/Tiles/Colored/tile_0057.png" id="7_f5vny"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vo8ki"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_f5vny")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dnjjw"]
+size = Vector2(8, 8)
+
+[node name="Loot" type="StaticBody2D" groups=["pickupable"]]
+script = ExtResource("1_s1bj6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_vo8ki")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_dnjjw")

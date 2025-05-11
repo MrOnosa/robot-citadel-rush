@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Equipment" load_steps=2 format=3 uid="uid://5af5ymni8q4"]
+
+[ext_resource type="Script" uid="uid://d2aeep8ffn3wx" path="res://resources/equipment.gd" id="1_3wdx4"]
+
+[resource]
+script = ExtResource("1_3wdx4")
+name = &"Wooden Armor"
+defense = 3
+attack = 0
+equipment_slot = 1
+metadata/_custom_type_script = "uid://d2aeep8ffn3wx"

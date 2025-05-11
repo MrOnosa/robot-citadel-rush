@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Equipment" load_steps=2 format=3 uid="uid://coofmt1nurxy2"]
+
+[ext_resource type="Script" uid="uid://d2aeep8ffn3wx" path="res://resources/equipment.gd" id="1_32aif"]
+
+[resource]
+script = ExtResource("1_32aif")
+name = &"Shell"
+defense = 7
+attack = 0
+equipment_slot = 1
+metadata/_custom_type_script = "uid://d2aeep8ffn3wx"
